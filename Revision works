@@ -1,0 +1,55 @@
+To find the area of rectangle using SUB Procedure 
+
+
+DECLARE SUB area(l,b)
+CLS
+INPUT "Enter the lenght of rectangle"; l
+INPUT "Enter the breadth of rectangle"; b
+CALL area(l, b)
+END
+
+SUB area (l, b)
+a = l * b
+PRINT "The area of rectangle is"; a
+END SUB
+
+WAP To calculate average of 2 number using sub procedure 
+
+DECLARE SUB Average (a, b) 
+CLS
+INPUT "Enter the first number" ; a
+INPUT " Enter the second nubmer" ; b
+CALL Average (a, b) 
+END
+
+Sub Average (a, b) 
+Av = (a + b) / 2 
+PRINT "Average of any two number" ; Av
+END SUB 
+
+WAP To calculate simple using sub procedure
+
+DECLARE SUB SI(P,T,R)
+CLS
+INPUT “ENTER PRINCIPLE” ; P
+INPUT “ENTER TIME” ; T
+INPUT “ENTER RATE” ; R
+CALL SI(P,T,R)
+END
+
+
+SUB SI(P,T,R)
+I=(P*T*R)/100
+PRINT “INTEREST IS ” ; I
+END SUB
+
+WAP to calculate volume of box using sub procedure 
+
+DECLARE Sub Vol ( L, B, H)
+CLS 
+INPUT "Enter Length" ; L 
+INPUT "Enter Breadth" ; B
+INPUT "Enter Height" ; H
+Call Vol (L, B, H) 
+END 
+
